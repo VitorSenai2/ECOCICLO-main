@@ -1,0 +1,156 @@
+@font-face {
+    font-family: "lexend";
+    src: url(ECOCICLO-main/font/Lexend-VariableFont_wght.ttf);
+}
+*{
+    border: 0;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header {
+    background-image: url(ECOCICLO-main/img/fundo.png);
+    background-size: cover;
+    height: 500px;
+}
+.titulo{
+    font-family: "lexend";
+    font-size: 80px;
+    font-weight: 500;
+}
+.subtitulo{
+    font-family: "lexend";
+    font-size: 30px;
+}
+body{
+    background-color: #598C38;
+}
+.imagem{
+    height: 300px;
+}
+.divisao{
+    background-color: #F4F3F3;
+    width: 320px;
+    border-radius: 8px;
+    margin: 15px;
+}
+.display{
+    display: flex;
+    justify-content: center;
+}
+.texo{
+    font-family: "lexend";
+    font-size: 14px;
+    padding: 5px;
+
+    text-align: justify;
+}
+.nome{
+    padding-left: 20px;
+    padding-top: 20px;
+    font-family: "lexend";
+    font-size: 40px;
+    color: #F4F3F3;
+    font-weight: 370;
+}
+.redes{
+    color: #F4F3F3;
+    font-family: "lexend";
+    font-weight: 300;
+    font-size: 24px;
+}
+.sobre{
+    background-color: #F4F3F3;
+}
+.sobre .nome {
+    color: #000000;
+}
+h3 {
+    color: #598C38;
+    font-family: "lexend";
+    font-size: 40px;
+}
+section, footer, header{
+    padding: 0px 150px;
+}
+.sobre{
+    padding: 70px 150px;
+}
+header{
+    padding-top: 150px;
+}
+.impacto{
+    background-color: #476C30;
+    color: #F4F3F3;
+    font-family: "lexend";
+    font-weight: 300;
+    font-size: 24px;
+}
+.Texto1{
+    color: #F4F3F3;
+    font-family: "lexend";
+    font-weight: 400;
+    font-size: 60px;
+}
+footer{
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.redes {
+    padding: 10px;
+}
+
+.Parcerias{
+    color: #F4F3F3;
+    font-size: 60px;
+    font-weight: 370;
+    padding-top: 70px;
+    padding-left: 20px;
+}
+.Sustentabilidade{
+    color: #F4F3F3;
+    font-size: 60px;
+    font-weight: 370;
+    padding-top: 80px;
+    padding-left: 20px;
+}
+.Redução{
+    color: #F4F3F3;
+    font-size: 60px;
+    font-weight: 370;
+    padding-top: 90px;
+    padding-left: 20px;
+}
+.container {
+    display: flex;
+    justify-content: left;
+    padding: 20px;
+}
+.SustentabilidadeP{
+    font-size: 30px;
+    text-align: justify;
+    padding-left: 20px;
+    font-weight: 170;
+    
+}
+.ReduçãoP{
+    font-size: 30px;
+    text-align: justify;
+    padding-left: 20px;
+    font-weight: 170;
+    
+}
+.ParceriasP{
+    font-size: 30px;
+    text-align: justify;
+    padding-bottom: 70px;
+    padding-left: 20px;
+    font-weight: 170;
+}
+.nome2{
+    padding-top: 30px;
+    font-family: "lexend";
+    font-size: 40px;
+    color: #F4F3F3;
+    font-weight: 500;
+}
